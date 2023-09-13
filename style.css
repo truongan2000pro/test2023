@@ -1,0 +1,11 @@
+.grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+@media (min-width: 375px) {
+    .grid-item {
+        background-color: yellow;
+    }
+}
